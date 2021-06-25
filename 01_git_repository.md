@@ -43,3 +43,29 @@ $ git push -u origin master
 ```
 
 원격 저장소라는 말은 집의 컴퓨터가 아닌 다른 곳에 가서도 그 저장소를 쓸수있다
+
+
+
+## clone
+
+- 원격 저장소 내용 전체 복제
+
+```bash
+$ git clone {원격저장소 url}
+```
+
+- 주의사항
+- 이미 git init이 되어있음
+
+
+
+## pull
+
+- 원격 저장소의 변경사항을 받아옴(업데이트)
+
+```bash
+$ git pull origin master
+```
+
+
+
