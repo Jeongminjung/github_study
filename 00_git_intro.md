@@ -51,20 +51,25 @@ $ git init
 
 ## add
 
+```bash
 $ git add 파일명
-
-
-
-
-
-``` bash
-# git아, commit 할건데 -메세지는 
+$ git add . # 현재 디렉토리
+$ git add a.txt # 특정 파일
+$ git add directory_name/ #특정 폴더가 가진 모든 파일 
 ```
 
-- 커밋을 통해 하나의 버전으로 기록 됨
-- 
+- working  directory ㅏㅇ태의 파일을 staging area상태로
+- 커밋을 위한 파일 및 폴더들을 추가하는 명령어
 
 
+
+## commit
+
+```bash
+# git아, commit 할건데 -메세지
+
+
+```
 
 
 
